@@ -17,7 +17,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
@@ -1843,7 +1843,7 @@ Source:  Data sheet </description>
 <attribute name="VALUE" x="23.8125" y="5.715" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2k7" x="20.32" y="6.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.955" y="7.9375" size="0.6096" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="19.52625" y="5.715" size="0.6096" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="70" x="20.32" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="20.32" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="18.415" y="6.985" size="1.27" layer="27" rot="R270"/>
@@ -1861,7 +1861,7 @@ Source:  Data sheet </description>
 <attribute name="VALUE" x="24.60625" y="2.38125" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2k7" x="17.93875" y="6.35" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.4625" y="5.715" size="0.6096" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="17.145" y="6.50875" size="0.6096" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="70" x="17.93875" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="17.93875" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="19.84375" y="5.715" size="1.27" layer="27" rot="R90"/>
@@ -1903,7 +1903,7 @@ Source:  Data sheet </description>
 <attribute name="VALUE" x="20.0025" y="15.875" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="15k" x="27.14625" y="6.0325" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.82875" y="4.445" size="0.6096" layer="25" font="vector"/>
+<attribute name="NAME" x="27.46375" y="7.3025" size="0.6096" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="0" x="27.14625" y="6.0325" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="27.14625" y="6.0325" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="29.05125" y="5.3975" size="1.27" layer="27" rot="R90"/>
@@ -1921,7 +1921,7 @@ Source:  Data sheet </description>
 <attribute name="VALUE" x="28.8925" y="6.6675" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="15k" x="28.2575" y="6.0325" smashed="yes" rot="R90">
-<attribute name="NAME" x="28.8925" y="7.62" size="0.6096" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="28.575" y="7.3025" size="0.6096" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="0" x="28.2575" y="6.0325" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="28.2575" y="6.0325" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="30.1625" y="5.3975" size="1.27" layer="27" rot="R90"/>
@@ -1972,7 +1972,7 @@ Source:  Data sheet </description>
 <attribute name="VALUE" x="6.35" y="6.35" size="1.27" layer="27"/>
 </element>
 <element name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="6.985" y="9.525" smashed="yes" rot="R180">
-<attribute name="NAME" x="5.87375" y="8.5725" size="0.6096" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="5.87375" y="7.62" size="0.6096" layer="25" font="vector" rot="R90"/>
 <attribute name="POPULARITY" value="0" x="6.985" y="0.635" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="6.985" y="0.635" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="7.62" y="11.43" size="1.27" layer="27" rot="R180"/>
@@ -2038,13 +2038,13 @@ Source:  Data sheet </description>
 <attribute name="VALUE" x="10.795" y="17.145" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="4k7" x="14.12875" y="6.19125" smashed="yes" rot="R270">
-<attribute name="NAME" x="13.17625" y="4.7625" size="0.6096" layer="25" font="vector"/>
+<attribute name="NAME" x="13.49375" y="5.08" size="0.6096" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="0" x="-22.70125" y="10.63625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-22.70125" y="10.63625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.22375" y="6.82625" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="15k" x="13.0175" y="6.19125" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.7475" y="7.14375" size="0.6096" layer="25" font="vector"/>
+<attribute name="NAME" x="12.7" y="5.08" size="0.6096" layer="25" font="vector" rot="R270"/>
 <attribute name="POPULARITY" value="0" x="54.9275" y="-2.69875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="54.9275" y="-2.69875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="14.9225" y="5.55625" size="1.27" layer="27" rot="R90"/>
@@ -2084,7 +2084,7 @@ Source:  Data sheet </description>
 <attribute name="VALUE" x="17.78" y="10.795" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C13" library="joakim" package="C0402-J" value="220n" x="15.24" y="6.19125" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.9225" y="4.7625" size="0.6096" layer="25" font="vector"/>
+<attribute name="NAME" x="16.35125" y="5.3975" size="0.6096" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="13.335" y="6.82625" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C14" library="joakim" package="C0603-J" value="2n2" x="11.43" y="5.08" smashed="yes" rot="R270">
@@ -2096,7 +2096,7 @@ Source:  Data sheet </description>
 <attribute name="VALUE" x="6.895" y="14.68" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C4" library="joakim" package="C0402-J" value="1uF" x="6.985" y="12.065" smashed="yes">
-<attribute name="NAME" x="5.87375" y="12.065" size="0.6096" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="6.19125" y="13.0175" size="0.6096" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="6.35" y="10.16" size="1.27" layer="27"/>
 </element>
 <element name="T1" library="joakim" package="NOISE-2N3904-J" value="NOISE-2N3904-DNM" x="2.8575" y="4.7625" smashed="yes" rot="R180">
@@ -2111,7 +2111,7 @@ Source:  Data sheet </description>
 <attribute name="VALUE" x="-2.2606" y="8.509" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C5" library="joakim" package="C0402-J" value="1uF" x="6.985" y="10.795" smashed="yes" rot="R180">
-<attribute name="NAME" x="5.87375" y="10.31875" size="0.6096" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="6.19125" y="10.4775" size="0.6096" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="7.62" y="12.7" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="33k" x="31.90875" y="6.0325" smashed="yes" rot="R90">
@@ -2466,9 +2466,9 @@ Source:  Data sheet </description>
 <wire x1="27.78125" y1="17.30375" x2="27.46375" y2="17.62125" width="0.254" layer="1"/>
 <wire x1="27.46375" y1="17.62125" x2="26.67" y2="17.62125" width="0.254" layer="1"/>
 <wire x1="26.67" y1="17.62125" x2="25.4" y2="17.62125" width="0.254" layer="1"/>
-<wire x1="21.59" y1="18.25625" x2="21.2725" y2="18.25625" width="0.254" layer="1"/>
-<wire x1="21.2725" y1="18.25625" x2="20.79625" y2="17.78" width="0.254" layer="1"/>
-<wire x1="20.79625" y1="17.36" x2="20.79625" y2="17.78" width="0.254" layer="1"/>
+<wire x1="21.59" y1="18.25625" x2="21.59" y2="17.93875" width="0.254" layer="1"/>
+<wire x1="20.79625" y1="17.36" x2="21.01125" y2="17.36" width="0.254" layer="1"/>
+<wire x1="21.59" y1="17.93875" x2="21.01125" y2="17.36" width="0.254" layer="1"/>
 <via x="21.59" y="18.25625" extent="1-16" drill="0.3302"/>
 <via x="24.13" y="17.62125" extent="1-16" drill="0.3302"/>
 <wire x1="24.13" y1="17.62125" x2="22.225" y2="17.62125" width="0.254" layer="16"/>
@@ -2909,8 +2909,7 @@ Source:  Data sheet </description>
 <contactref element="C13" pad="2"/>
 <contactref element="R35" pad="1"/>
 <contactref element="R36" pad="1"/>
-<wire x1="14.12875" y1="5.08" x2="14.44625" y2="5.08" width="0.254" layer="1"/>
-<wire x1="14.44625" y1="5.08" x2="14.94625" y2="5.08" width="0.254" layer="1"/>
+<wire x1="14.12875" y1="5.08" x2="14.94625" y2="5.08" width="0.254" layer="1"/>
 <wire x1="15.24" y1="5.37375" x2="14.94625" y2="5.08" width="0.254" layer="1"/>
 <wire x1="15.24" y1="5.37375" x2="15.24" y2="5.69125" width="0.254" layer="1"/>
 <wire x1="14.12875" y1="5.69125" x2="14.12875" y2="5.08" width="0.254" layer="1"/>
